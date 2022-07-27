@@ -6,7 +6,7 @@ for t in range(T):
 
 numbers.sort()
 
-for n in range(T):
+for n in range(len(numbers)):
     print(numbers[n])
     
     
