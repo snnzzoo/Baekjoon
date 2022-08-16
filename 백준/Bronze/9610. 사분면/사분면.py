@@ -19,8 +19,8 @@ for n in range(N):
     elif x == 0 or y == 0: # 축: x or y 중 하나라도 0
         AXIS += 1
 
-print(f'Q1: {cnt_Q1}')
-print(f'Q2: {cnt_Q2}')
-print(f'Q3: {cnt_Q3}')
-print(f'Q4: {cnt_Q4}')
-print(f'AXIS: {AXIS}')
+print('Q1:', cnt_Q1)
+print('Q2:', cnt_Q2)
+print('Q3:', cnt_Q3)
+print('Q4:', cnt_Q4)
+print('AXIS:', AXIS)
