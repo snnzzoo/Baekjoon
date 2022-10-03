@@ -1,8 +1,9 @@
+cambridge = ['C', 'A', 'M', 'B', 'R', 'I', 'D', 'G', 'E']
 word = input()
-cambridge = 'CAMBRIDGE'
+result = ''
 
 for i in word:
-    if i in cambridge:
-        word = word.replace(i, '')
-
-print(word)
+    if i not in cambridge:
+        result += i
+        
+print(result)
