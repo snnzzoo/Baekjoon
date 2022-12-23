@@ -1,11 +1,7 @@
 A = int(input())
-B = int(input())
+B = input()
 
-a = B // 100
-b = B // 10 - ((B // 100) * 10)
-c = B % 10
-
-print(c * A)
-print(b * A)
-print(a * A)
-print(A * B)
+print(A * int(B[2]))
+print(A * int(B[1]))
+print(A * int(B[0]))
+print(A * int(B))
