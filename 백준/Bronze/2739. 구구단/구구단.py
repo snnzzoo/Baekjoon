@@ -1,5 +1,4 @@
-N = int(input())
-cnt = 0
-for n in range(9):
-    cnt += 1
-    print(f'{N} * {cnt} = {N * cnt}')
+n = int(input())
+
+for i in range(1, 10):
+    print(f'{n} * {i} = {n * i}')
