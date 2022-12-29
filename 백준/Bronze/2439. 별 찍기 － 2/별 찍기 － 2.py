@@ -1,8 +1,6 @@
 N = int(input())
-star = 0
-blank = N
+cnt = 0
 
-for n in range(N):
-    star += 1
-    blank -= 1
-    print(' ' * blank + '*' * star)
+for n in range(1, N + 1):
+    cnt += 1
+    print(((N - cnt) * " ") + ("*" * cnt))
