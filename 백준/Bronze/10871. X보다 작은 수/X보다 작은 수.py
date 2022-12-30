@@ -1,5 +1,6 @@
 N, X = map(int, input().split())
-numbers = list(map(int, input().split()))
-for n in numbers:
-    if n < X:
-        print(n, end=' ')
+A = list(map(int, input().split()))
+
+for n in A:
+    if n <X:
+        print(n, end=" ")
