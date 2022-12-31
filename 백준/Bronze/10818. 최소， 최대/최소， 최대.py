@@ -1,3 +1,4 @@
-T = int(input())
-N = list(map(int, input().split()))
-print(min(N), max(N), end=' ')
+N = int(input())
+numbers = list(map(int, input().split()))
+
+print(min(numbers), max(numbers))
