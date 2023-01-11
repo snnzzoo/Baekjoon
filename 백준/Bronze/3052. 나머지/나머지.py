@@ -1,9 +1,7 @@
-numbers = [int(input()) for n in range(10)]
-remainders = []
+numbers = [int(input()) for i in range(10)]
+result = []
 
-for n in numbers:
-    remainders.append(n % 42)
+for j in range(len(numbers)):
+    result.append(numbers[j] % 42)
     
-remainders_set = set(remainders)
-print(len(remainders_set))
-
+print(len(list(set(result))))
